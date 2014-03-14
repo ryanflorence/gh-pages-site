@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var directory = process.argv[2];
+validate();
+
+require('../index')(directory);
+
+function validate() {
+  if (!directory) {
+    console.log("Please provide a directory");
+    process.exit();
+  }
+}

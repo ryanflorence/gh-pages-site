@@ -1,0 +1,14 @@
+{
+  "name": "gh-pages-site",
+  "version": "0.0.1",
+  "description": "generate a simple nav for a list of github pages sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Florence <rpflorence@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.2"
+  }
+}
