@@ -1,10 +1,13 @@
 {
   "name": "gh-pages-site",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "generate a simple nav for a list of github pages sites",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gh-pages-site": "bin/build"
   },
   "author": "Ryan Florence <rpflorence@gmail.com>",
   "license": "MIT",
